@@ -20,3 +20,11 @@ NodeJs mendukung _REPL_, sehingga lebih mudah untuk belajar, untuk menggunakan N
 standard library yang ada didalam nodejs bisa kita gunakan layaknya javascript modules, karena nodejs menggunakan modules, jika kita ingin menggunakan modules, kita juga perlu memberitahu bahwa file javascript kita menggunakan modules, caranya dengan mengubah nama file dari _.js_ ke _.mjs_.
 
 selain mengubah nama file menjadi _.msj_ bisa juga dengan menambahkan `"type": "module"` didalam file _package.json_.
+
+## require function
+
+awal ketika nodejs dirilis, fitur javascript modules belum rilis, namun sekarang javascript sudah banyak menggunakan javascript modules. NodeJs pun awalnya tidak menggunakan javascript modules, namun sekarang nodejs sudah bisa menggunakan javascript modules dan sangat direkomendasikan menggunakan-nya.
+
+awal sebelum javascript modules belum rilis, nodejs menggunakan function `require()` untuk melakukan import modules.
+
+jika menggunakan `require()` function nama file nya bisa dengan menggunakan javascript file (_.js_)
