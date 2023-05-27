@@ -46,3 +46,27 @@ path merupakan standard library yang bisa kita gunakan untuk bekerja dengan loka
 ## file system
 
 file system merupakan standard library yang bisa digunakan untuk memanipulasi file system, dalam file system, terdapat 3 jenis library, pertama library yang bersifat blocking atau synchronous, kedua library yang bersifat non-blocking atau asynchronous menggunakan callback, yang ketiga library yang bersifat synchronous menggunakan promise.
+
+## debugger
+
+nodejs memiliki fitur bernama `debugger`, dimana kita bisa mengikuti tahapam eksekusi program di nodejs. sangat cocok ketika hendak melakukan proses debugging.
+
+dalam debugging, terdapat istilah breakpoint, yaitu lokasi dimana kita ingin menghentikan sementara eksekusi kode program. biasanya digunakan untuk mengawasi data data di sekitar lokasi berhentinya tersebut., untuk menambahkan breakpoint, kita bisa menggunakan kata kunci `debugger`.
+
+jika kita menjalankan file javascript hanya dengan menggunakan perintah `node namafile.js`, maka secara default dia tidak akan jalan dalam mode debug. agar jalan dalam mode debug, kita harus menambahkan perintah `inspect`.
+
+```bash
+node inspect namafile.js
+```
+
+saat masuk kedalam mode debug, ada beberapa perintah yang bisa digunakan dalam melakukan debugging.
+
+| perintah | keterangan         |
+| -------- | ------------------ |
+| `cont`,c | continue execution |
+| `next`,n | step next          |
+| `step`,s | step in            |
+| `out`,o  | step out           |
+| `pause`  | pause running code |
+
+untuk melihat variabel atau expression saat menjalankan debugging, gunakan keyword `watch("expression")`
