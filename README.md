@@ -70,3 +70,7 @@ saat masuk kedalam mode debug, ada beberapa perintah yang bisa digunakan dalam m
 | `pause`  | pause running code |
 
 untuk melihat variabel atau expression saat menjalankan debugging, gunakan keyword `watch("expression")`
+
+## DNS
+
+dns merupakan standard library yang digunakan untuk bekerja dengan dns (domain name server).
