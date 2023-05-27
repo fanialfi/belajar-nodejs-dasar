@@ -34,3 +34,7 @@ jika menggunakan `require()` function nama file nya bisa dengan menggunakan java
 saat belajar javascript, untuk menggunakan `async` `await`, biasanya kita perlu menandai terlebih dahulu function-nya sebagai `async`, tapi di nodejs saat kita menggunakan modules, secara default, global code adalah `async`, oleh karena itu kita bisa menggunakan `async` `await`. Kecuali jika kita membuat function, maka function tersebut harus kita tandai sebagai `async` jika ingin menggunakan `async` `await`.
 
 jika menggunakan javascript modules, level paling atas di code program by default sudah merupakan async function.
+
+## OS
+
+os merupakan standard library yang bisa digunakan untuk mendapatkan informasi tentang sistem operasi yang sedang digunakan.
