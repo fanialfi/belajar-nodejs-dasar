@@ -14,3 +14,9 @@ web application adalah aplikasi yang berjalan di server dan ditampilkan di brows
 
 kepanjangan dari _Read Eval Print Loop_, yaitu sebuah mekanisme dimana program bisa membaca langsung kode program yang diketikkan, lalu menjalankan, menampilkan hasil-nya, lalu mengulangi lagi dari awal.
 NodeJs mendukung _REPL_, sehingga lebih mudah untuk belajar, untuk menggunakan NodeJs REPL, cukup jalankan aplikasi node saja.
+
+## Modules
+
+standard library yang ada didalam nodejs bisa kita gunakan layaknya javascript modules, karena nodejs menggunakan modules, jika kita ingin menggunakan modules, kita juga perlu memberitahu bahwa file javascript kita menggunakan modules, caranya dengan mengubah nama file dari _.js_ ke _.mjs_.
+
+selain mengubah nama file menjadi _.msj_ bisa juga dengan menambahkan `"type": "module"` didalam file _package.json_.
