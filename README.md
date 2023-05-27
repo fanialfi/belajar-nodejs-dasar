@@ -38,3 +38,7 @@ jika menggunakan javascript modules, level paling atas di code program by defaul
 ## OS
 
 os merupakan standard library yang bisa digunakan untuk mendapatkan informasi tentang sistem operasi yang sedang digunakan.
+
+## path
+
+path merupakan standard library yang bisa kita gunakan untuk bekerja dengan lokasi file bukan file dan direktori.
