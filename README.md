@@ -42,3 +42,7 @@ os merupakan standard library yang bisa digunakan untuk mendapatkan informasi te
 ## path
 
 path merupakan standard library yang bisa kita gunakan untuk bekerja dengan lokasi file bukan file dan direktori.
+
+## file system
+
+file system merupakan standard library yang bisa digunakan untuk memanipulasi file system, dalam file system, terdapat 3 jenis library, pertama library yang bersifat blocking atau synchronous, kedua library yang bersifat non-blocking atau asynchronous menggunakan callback, yang ketiga library yang bersifat synchronous menggunakan promise.
