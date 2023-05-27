@@ -28,3 +28,9 @@ awal ketika nodejs dirilis, fitur javascript modules belum rilis, namun sekarang
 awal sebelum javascript modules belum rilis, nodejs menggunakan function `require()` untuk melakukan import modules.
 
 jika menggunakan `require()` function nama file nya bisa dengan menggunakan javascript file (_.js_)
+
+## global async
+
+saat belajar javascript, untuk menggunakan `async` `await`, biasanya kita perlu menandai terlebih dahulu function-nya sebagai `async`, tapi di nodejs saat kita menggunakan modules, secara default, global code adalah `async`, oleh karena itu kita bisa menggunakan `async` `await`. Kecuali jika kita membuat function, maka function tersebut harus kita tandai sebagai `async` jika ingin menggunakan `async` `await`.
+
+jika menggunakan javascript modules, level paling atas di code program by default sudah merupakan async function.
