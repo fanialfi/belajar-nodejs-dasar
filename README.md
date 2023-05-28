@@ -78,3 +78,7 @@ dns merupakan standard library yang digunakan untuk bekerja dengan dns (domain n
 ## events
 
 merupakan standard library di nodejs yang bisa digunakan sebagai implementasi event listener. di dalam `Events` terdapat class yang bernama `EventEmiter` yang bisa digunakan untuk menampung data listener per jenis event, lalu untuk mentriger jenis event dan mengirim data ke event tersebut bisa menggunakan `emit`.
+
+## globals
+
+didalam nodejs terdapat variabel atau method yang secara global dapat diakses tanpa harus melakukan import, [detail](https://nodejs.org/docs/latest-v19.x/api/globals.html)
