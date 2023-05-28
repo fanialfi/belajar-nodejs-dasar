@@ -86,3 +86,7 @@ didalam nodejs terdapat variabel atau method yang secara global dapat diakses ta
 ## process
 
 merupakan standard library yang digunakan untuk mendapatkan informasi proses nodejs yang sedang berjalan, process juga merupakan instance dari EventEmitter, sehingga bisa menambahkan listener kedalam process. [detail](https://nodejs.org/docs/latest-v19.x/api/process.html)
+
+## readline
+
+merupakan standard library yang digunakan untuk membaca input
