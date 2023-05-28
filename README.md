@@ -74,3 +74,7 @@ untuk melihat variabel atau expression saat menjalankan debugging, gunakan keywo
 ## DNS
 
 dns merupakan standard library yang digunakan untuk bekerja dengan dns (domain name server).
+
+## events
+
+merupakan standard library di nodejs yang bisa digunakan sebagai implementasi event listener. di dalam `Events` terdapat class yang bernama `EventEmiter` yang bisa digunakan untuk menampung data listener per jenis event, lalu untuk mentriger jenis event dan mengirim data ke event tersebut bisa menggunakan `emit`.
