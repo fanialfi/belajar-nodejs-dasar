@@ -90,3 +90,20 @@ merupakan standard library yang digunakan untuk mendapatkan informasi proses nod
 ## readline
 
 merupakan standard library yang digunakan untuk membaca input
+
+## report
+
+report merupakan fitur yang terdapat di NodeJS untuk membuat laporan secara otomatis dalam file ketika sesuatu terjadi pada aplikasi NodeJS kita.
+
+untuk menjalankan report sebenarnya ada beberapa cara, cara yang pertama adalah ketika menjalankan aplikasi bisa menambahkan parameter
+`--report-uncaught-exception`, `--report-on-signal`, `--report-on-fatalerror`, `--report-filename namafile.json` dan nanti hasil report-nya dalam bentuk json.
+Atau juga bisa memanfaatkan core module `process` dengan cara
+
+```javascript
+import "process" from "node:process";
+
+process.report.reportOnFatalError = true;
+process.report.reportOnUncaughtException = true;
+process.report.reportOnSignal = true;
+process.report.filename = "report.json";
+```
