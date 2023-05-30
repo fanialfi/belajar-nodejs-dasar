@@ -115,3 +115,7 @@ merupakan object yang berisikan urutan byte dengan panjang tetap, buffer merupak
 ## stream
 
 merupakan standard library untuk kontrak aliran data di NodeJS, _stream_ bisa jadi object yang bisa dibaca, atau bisa ditulis, dan stream adalah turunan dari `EventEmitter`.
+
+## timers
+
+merupakan standard library yang digunakan untuk melakukan scheduling (penjadwalan) function untuk di panggil terhadap batas waktu-nya, timers function berada didalam global, jadi tidak perlu melakukan import module untuk bisa menggunakan-nya, meskipun bisa saja melakukan import, Kecuali jenis timers nya promise, maka harus di import terlebih dahulu.
