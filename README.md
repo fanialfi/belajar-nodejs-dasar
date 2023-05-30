@@ -119,3 +119,7 @@ merupakan standard library untuk kontrak aliran data di NodeJS, _stream_ bisa ja
 ## timers
 
 merupakan standard library yang digunakan untuk melakukan scheduling (penjadwalan) function untuk di panggil terhadap batas waktu-nya, timers function berada didalam global, jadi tidak perlu melakukan import module untuk bisa menggunakan-nya, meskipun bisa saja melakukan import, Kecuali jenis timers nya promise, maka harus di import terlebih dahulu.
+
+## net
+
+merupakan standard library yang bisa digunakan membuat network server dan network client berbasis TCP, Net server dan Net client merupakan object stream, sehingga kita bisa baca data-nya dari stream-nya tersebut, atau juga menulis data-nya, selain itu Net juga merupakan turunan dari EventEmitter, sehingga bisa menambahkan listener.
