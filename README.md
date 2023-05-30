@@ -107,3 +107,7 @@ process.report.reportOnUncaughtException = true;
 process.report.reportOnSignal = true;
 process.report.filename = "report.json";
 ```
+
+## buffer
+
+merupakan object yang berisikan urutan byte dengan panjang tetap, buffer merupakan turunan dari tipe data [`Uint8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array).
