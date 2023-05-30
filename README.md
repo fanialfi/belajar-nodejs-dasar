@@ -77,7 +77,7 @@ dns merupakan standard library yang digunakan untuk bekerja dengan dns (domain n
 
 ## events
 
-merupakan standard library di nodejs yang bisa digunakan sebagai implementasi event listener. di dalam `Events` terdapat class yang bernama `EventEmiter` yang bisa digunakan untuk menampung data listener per jenis event, lalu untuk mentriger jenis event dan mengirim data ke event tersebut bisa menggunakan `emit`.
+merupakan standard library di nodejs yang bisa digunakan sebagai implementasi event listener. di dalam `Events` terdapat class yang bernama `EventEmitter` yang bisa digunakan untuk menampung data listener per jenis event, lalu untuk mentriger jenis event dan mengirim data ke event tersebut bisa menggunakan `emit`.
 
 ## globals
 
@@ -111,3 +111,7 @@ process.report.filename = "report.json";
 ## buffer
 
 merupakan object yang berisikan urutan byte dengan panjang tetap, buffer merupakan turunan dari tipe data [`Uint8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array).
+
+## stream
+
+merupakan standard library untuk kontrak aliran data di NodeJS, _stream_ bisa jadi object yang bisa dibaca, atau bisa ditulis, dan stream adalah turunan dari `EventEmitter`.
