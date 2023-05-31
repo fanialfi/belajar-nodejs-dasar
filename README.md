@@ -123,3 +123,7 @@ merupakan standard library yang digunakan untuk melakukan scheduling (penjadwala
 ## net
 
 merupakan standard library yang bisa digunakan membuat network server dan network client berbasis TCP, Net server dan Net client merupakan object stream, sehingga kita bisa baca data-nya dari stream-nya tersebut, atau juga menulis data-nya, selain itu Net juga merupakan turunan dari EventEmitter, sehingga bisa menambahkan listener.
+
+## url
+
+merupakan standard library yang digunakan untuk bekerja dengan url,
