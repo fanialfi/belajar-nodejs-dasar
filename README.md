@@ -127,3 +127,7 @@ merupakan standard library yang bisa digunakan membuat network server dan networ
 ## url
 
 merupakan standard library yang digunakan untuk bekerja dengan url,
+
+## util
+
+merupakan standard library yang berisikan utility utility yang bisa digunakan untuk mempermudah pembuatan kode program di NodeJS.
