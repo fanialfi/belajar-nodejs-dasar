@@ -139,3 +139,7 @@ merupakan standard library yang digunakan untuk melakukan **kompresi** dengan me
 ## console
 
 adalah standard library yang sudah sering digunakan, secara global object, console bisa digunakan tanpa harus import module, dan console secara default akan melakukan print text nya ke stdout, tapi sebenarnya console itu ada Class nya dan kita bisa membuat object console secara manual.
+
+## Worker Threads
+
+Worker Threads adalah standard library yang bisa digunakan untuk menggunakan threads ketika mengeksekusi kode javascript secara pararel, sangat cocok ketika membuat kode program yang butuh jalan secara pararel, dan biasanya kasusnya adalah kode program membutuhkan proses yang CPU intensif, seperti misalnya enkripsi atau kompresi. Cara kerja Worker threads mirip dengan web worker di javascript web api. Selain itu worker threads juga merupakan instance dari EventEmitter.
