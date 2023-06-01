@@ -135,3 +135,7 @@ merupakan standard library yang berisikan utility utility yang bisa digunakan un
 ## zlib
 
 merupakan standard library yang digunakan untuk melakukan **kompresi** dengan menggunakan **gzip**.
+
+## console
+
+adalah standard library yang sudah sering digunakan, secara global object, console bisa digunakan tanpa harus import module, dan console secara default akan melakukan print text nya ke stdout, tapi sebenarnya console itu ada Class nya dan kita bisa membuat object console secara manual.
