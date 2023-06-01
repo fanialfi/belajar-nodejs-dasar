@@ -131,3 +131,7 @@ merupakan standard library yang digunakan untuk bekerja dengan url,
 ## util
 
 merupakan standard library yang berisikan utility utility yang bisa digunakan untuk mempermudah pembuatan kode program di NodeJS.
+
+## zlib
+
+merupakan standard library yang digunakan untuk melakukan **kompresi** dengan menggunakan **gzip**.
