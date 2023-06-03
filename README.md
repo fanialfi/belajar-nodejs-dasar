@@ -149,3 +149,9 @@ Worker Threads adalah standard library yang bisa digunakan untuk menggunakan thr
 nodejs juga memiliki standard library untuk http, salah satu fitur di module http adalah http client, dimana kita bisa melakukan simulasi http requests menggunakan nodejs. terdapat 3 jenis module http di nodejs, yaitu `http`, `http2`, dan `https`
 
 standard library `http` tidak hanya bisa digunakan untuk `http client` tapi juga bisa digunakan untuk membuat `http server`. Untuk kasus sederhana cocok sekali kalau menggunakan `http server` bawaan dari nodejs, tapi kalau lebih kompleks, direkomendasikan menggunakan library atau framework yang lebih mudah digunakan.
+
+## cluster
+
+seperti yang di jelaskan di awal, bahwa nodejs itu secara default dia berjalan didalam single thread, kecuali kita membuat thread manual dengan menggunakan `worker_threads` tetapi tetap dalam satu proses. Nodejs memiliki standard library yang bernama `cluster`, dimana bisa menjalankan beberapa proses nodejs sekaligus. ini sangat cocok ketika ingin menggunakan cpu yang multicore, sehingga semua core bisa di utilisasi dengan baik.
+
+di dalam cluster terdapat 2 jenis aplikasi. yaitu primary, dan worker. primary biasaya digunakan sebagai koordinator saja atau manajer untuk para worker nya, sedang worker sendiri adalah aplikasi yang menjalankan tugas nya.
