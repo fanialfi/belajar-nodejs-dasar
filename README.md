@@ -143,3 +143,9 @@ adalah standard library yang sudah sering digunakan, secara global object, conso
 ## Worker Threads
 
 Worker Threads adalah standard library yang bisa digunakan untuk menggunakan threads ketika mengeksekusi kode javascript secara pararel, sangat cocok ketika membuat kode program yang butuh jalan secara pararel, dan biasanya kasusnya adalah kode program membutuhkan proses yang CPU intensif, seperti misalnya enkripsi atau kompresi. Cara kerja Worker threads mirip dengan web worker di javascript web api. Selain itu worker threads juga merupakan instance dari EventEmitter.
+
+## http
+
+nodejs juga memiliki standard library untuk http, salah satu fitur di module http adalah http client, dimana kita bisa melakukan simulasi http requests menggunakan nodejs. terdapat 3 jenis module http di nodejs, yaitu `http`, `http2`, dan `https`
+
+standard library `http` tidak hanya bisa digunakan untuk `http client` tapi juga bisa digunakan untuk membuat `http server`. Untuk kasus sederhana cocok sekali kalau menggunakan `http server` bawaan dari nodejs, tapi kalau lebih kompleks, direkomendasikan menggunakan library atau framework yang lebih mudah digunakan.
